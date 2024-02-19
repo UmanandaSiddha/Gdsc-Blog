@@ -1,0 +1,275 @@
+.nav_arr_top {
+    display: flex;
+    margin: 0 14.563vw;
+    justify-content: space-between;
+}
+
+.nav_arr {
+    margin-top: 2.922vw;
+}
+
+.gdsc_arr_logo img {
+    width: 4vw;
+    height: 4vh;
+}
+
+.social_arr {
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+}
+
+.title_arr {
+    display: grid;
+    justify-content: center;
+    font-size: 3.051vw;
+    text-align: center;
+    border: none;
+}
+
+.title_arr h1 {
+    font-family: "Marzo W00 Regular";
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.45em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 100;
+}
+
+.nav_arr_mid {
+    text-align: center;
+    margin: 2em auto 4em;
+    max-width: 900px;
+}
+
+.elemchild_arr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.41vw;
+    padding: 0.41vw 0;
+}
+
+.elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    width: fit-content;
+}
+
+.elem a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border-top: 0.082vw solid rgba(0, 0, 0, 0.851);
+}
+
+.elemchild_arr .elem h4 {
+    font-size: 1.313vw;
+}
+
+.button_arr {
+    overflow: hidden;
+    display: block;
+    letter-spacing: 0.5em;
+    text-decoration: center;
+    padding: 0.75em 1.25em 0.75em 1.75em;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    white-space: nowrap;
+}
+
+.button_arr:before,
+.button_arr:after {
+    border-style: solid;
+    border-color: black;
+    border-width: 0;
+}
+
+.ribbon {
+    border-width: 2px 0;
+    position: relative;
+    display: block;
+    padding: 0.2em 0 0.2em 0.5em;
+}
+
+.ribbon:before {
+    content: "";
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    position: absolute;
+    top: -50%;
+    bottom: 50%;
+    left: 1.6em;
+    right: 0;
+}
+
+.ribbon:after {
+    content: "";
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    position: absolute;
+    top: -50%;
+    bottom: 50%;
+    left: 0;
+    right: 1.6em;
+}
+
+.content_div_arr {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 65vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.content_div_arr::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 12px;
+    bottom: 12px;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.user_info_arr {
+    display: flex;
+    align-items: center;
+    gap: 0.3125vw;
+    margin-top: 1.25vw;
+    margin-left: 7.125vw;
+    font-size: 2vmax;
+}
+
+.title_arr2 {
+    margin-left: 7.125vw;
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    letter-spacing: 0.12vw;
+}
+
+.blog_info_arr {
+    font-size: 2vw;
+    letter-spacing: 0.12rem;
+    height: auto;
+    margin-left: 7.125vw;
+    margin-right: 2.130rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.content_img_arr {
+    width: 70%;
+    height: auto;
+    margin-top: auto;
+    position: relative;
+    margin-left: 7.125vw;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width:480px) {
+    .gdsc_arr_logo img {
+        height: 3em;
+        width: 3em;
+    }
+
+    h1 {
+        font-size: 4em;
+        font-weight: normal;
+    }
+
+    .social_arr {
+        display: none;
+    }
+
+    .nav_arr_mid {
+        display: none;
+    }
+
+    .content_div_arr {
+        border: none;
+    }
+
+    .content_div_arr::before {
+        border: none;
+    }
+
+    .date_arr_time {
+        margin-top: 2.5vw;
+        margin-left: -6.7vw;
+    }
+
+    .title_arr2 {
+        font-size: 2em;
+        margin-left: -1.2vw;
+        margin-top: 1vw;
+    }
+
+    .blog_arr_info {
+        width: 70vw;
+        margin-left: -1.2vw;
+        font-size: .8em;
+    }
+
+    .content_img_arr {
+        margin-left: -1.2vw;
+        width: 70vw;
+    }
+}
+
+@media(max-width:780px) {
+    .social_arr {
+        display: none;
+    }
+
+    .nav_arr_mid {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+@import url('https://db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=Marzo+W00+Regular');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-size: 62.5%;
+    margin-left: auto;
+    margin-right: auto;
+}

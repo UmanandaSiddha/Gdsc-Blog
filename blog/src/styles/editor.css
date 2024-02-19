@@ -1,0 +1,57 @@
+.editor-blog>*+* {
+    margin-top: 0.75em;
+}
+
+.editor-blog ul,
+.editor-blog ol {
+    padding: 0 1rem;
+}
+
+.editor-blog h1,
+.editor-blog h2,
+.editor-blog h3,
+.editor-blog h4,
+.editor-blog h5,
+.editor-blog h6 {
+    line-height: 1.1;
+}
+
+.editor-blog code {
+    background-color: rgba(97, 97, 97, 0.1);
+    color: #616161;
+}
+
+.editor-blog pre {
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.editor-blog pre code {
+    color: inherit;
+    padding: 0;
+    background: none;
+    font-size: 0.8rem;
+}
+
+.editor-blog img {
+    width: 35vw;
+    height: auto;
+}
+
+.editor-blog blockquote {
+    padding-left: 1rem;
+    border-left: 2px solid rgba(13, 13, 13, 0.1);
+}
+
+.editor-blog hr {
+    border: none;
+    border-top: 2px solid rgba(13, 13, 13, 0.1);
+    margin: 2rem 0;
+}
+
+.tiptap {
+    min-height: 50%;
+}
