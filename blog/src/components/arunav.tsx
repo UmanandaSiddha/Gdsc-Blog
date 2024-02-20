@@ -43,13 +43,13 @@ const Arunav = ({ blog }: any) => {
             </div>
             <div className="content_div_arr">
                 <div className="title_arr2">{blog.title}</div>
-                <div className="blog_info_arr" style={{fontSize: "20px"}}>{blog.description}</div>
-                {/* <img className="content_img_arr" src="blogimg.jpg" alt="" /> */}
+                <div className="title_arr2" style={{fontSize: "20px"}}>{blog.description}</div>
                 <div className="user_info_arr">
                     <div className="date_arr_time" style={{fontSize: "20px"}}>{blog.user?.name} | {moment(blog.createdAt).format('MM/DD/YYYY')}</div>
                 </div>
                 <div className="blog_info_arr editor-blog">{parse(`${blog.content}`)}</div>
             </div>
+            {/* <div className="editor-blog">{parse(`${blog.content}`)}</div> */}
         </div>
     )
 }
